@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    align-items: center;
+    text-align: center;
+    background: rgb(11,128,147);
+background: radial-gradient(circle, rgba(11,128,147,0.9893207282913166) 0%, rgba(163,172,164,1) 98%);
+
+}
+h1{
+    text-align: center;
+    font-size:100px;
+}
+#input,#input1{
+    padding: 20px 10px;
+    border: solid   black  ;
+    border-radius: 10px;
+    font-size: 20px;
+    
+}
+#sparebox{
+    color: red;
+}
+.but1{
+    background-color: rgb(13, 227, 13);
+    padding: 25px;
+    border-radius: 10px;
+    margin: 2px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    
+}
+.but2{
+    color: rgba(0, 0, 0, 0.93);
+    background-color: rgb(190, 13, 13);
+    padding: 25px;
+    border-radius: 10px;
+    margin: 2px;
+    cursor: pointer;
+    font-size: 15px;
+    
+}
+.grid-container{
+   
+   
+   display: grid  ;
+   justify-content: center;
+   grid-template-columns: 210px 170px 100px;
+   column-gap: 10px;
+   row-gap: 10px;
+   margin-top: 10px;
+   align-items: center;
+   font-size: 20px;
+   
+  
+}
